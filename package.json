@@ -1,0 +1,21 @@
+{
+	"name": "jsdoc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"docs": "jsdoc -c jsdoc.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"docdash": "^1.2.0",
+		"express": "^4.17.1",
+		"jsdoc": "^3.6.6",
+		"jsdoc-bootstrap-template": "https://github.com/Smolations/jsdoc-bootstrap-template.git"
+	},
+	"devDependencies": {
+		"jsdoc-http-plugin": "^0.3.2"
+	}
+}
